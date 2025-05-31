@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.nav-item a:hover {
+  color: rgb(105, 105, 184);
+}
+
+.nav-item a {
+  color: white;
+}
+
+#irfana {
+  color: rgb(105, 105, 184);
+}
+
+.home img {
+  border-color: rgb(105, 105, 184) !important;
+  border-radius: 8px;
+}
+
+@media (max-width: 767.98px) {
+  .home {
+    text-align: center;
+  }
+
+  .home .col-md-6 {
+    padding-top: 1rem !important;
+  }
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.htmlimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cssimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jsimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bootstrapimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projectimg{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .navcontainer{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 65px;
+}
+.navlink{
+    list-style-type: none;
+    gap:50px;
+    display: flex;
+    
+    
+
+}
+
+.navlink li a{
+    text-decoration: none;
+    color: white;
+     padding: 10px;
+}
+.navlink li a:hover{
+    color: rgb(105, 105, 184);
+   
+}
+.name{
+    font-size:25px;
+}
+
+ */
